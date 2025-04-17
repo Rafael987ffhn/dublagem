@@ -1,9 +1,0 @@
-fastapi
-gunicorn
-uvicorn
-jinja2
-python-multipart
-requests
-openai-whisper
-pydub
-ffmpeg-python
