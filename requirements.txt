@@ -1,0 +1,9 @@
+
+fastapi
+uvicorn
+jinja2
+pydub
+whisper
+openai-whisper
+requests
+moviepy

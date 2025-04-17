@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AutoDub</title>
+</head>
+<body>
+    <h2>Dublador de Vídeos - AutoDub</h2>
+    <form action="/process" enctype="multipart/form-data" method="post">
+        <label>Selecione o vídeo:</label><br>
+        <input type="file" name="file" accept="video/*" required><br><br>
+        <label>Idioma original do vídeo:</label><br>
+        <select name="language" required>
+            <option value="en">Inglês</option>
+            <option value="pt">Português</option>
+            <option value="es">Espanhol</option>
+        </select><br><br>
+        <input type="submit" value="Dublar vídeo">
+    </form>
+</body>
+</html>
