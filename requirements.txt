@@ -1,6 +1,9 @@
-flask
-whisper
+fastapi
+gunicorn
+uvicorn
+jinja2
+python-multipart
 requests
+openai-whisper
 pydub
-moviepy
-elevenlabs
+ffmpeg-python
